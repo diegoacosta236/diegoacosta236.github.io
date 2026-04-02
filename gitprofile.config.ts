@@ -83,19 +83,23 @@ const CONFIG = {
       'https://github.com/tvanlaar/gitprofile/raw/main/VanLaarCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [ // TODO
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    //'PHP',
+    //'Laravel',
+    //'Nest.js',
+    //'Docker',
+    //'PHPUnit',
+    //'Antd',
+    'R', // Added
+    'Python', // Added
+    'C++', // Added
+    'JavaScript', // Added
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Express.js', // Added
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
@@ -124,16 +128,16 @@ const CONFIG = {
   ],
   education: [ // TODO
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'California State University, Stanislaus',
+      degree: 'Bachelor of Science, Computer Science, Minor in Biology',
+      from: '2024',
+      to: '2026',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Modesto Junior College',
+      degree: 'Associate of Arts',
+      from: '2021',
+      to: '2023',
     },
   ],
   publications: [
