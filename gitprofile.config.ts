@@ -52,17 +52,17 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Tricia Van Laar',
+    title: 'Portfolio of Diego Acosta', // Changed name to my own.
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'tvanlaar',
+    linkedin: 'diego-a-acosta', // Changed to my own link
     x: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'preciouss.momentss', // Added instagram
     reddit: '',
     threads: '',
     youtube: '', 
@@ -74,15 +74,15 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://tvanlaar.github.io',
-    phone: '',
-    email: 'tvanlaar@csustan.edu',
+    website: 'https://diegoacosta236.github.io',  // Changed
+    phone: '(925)339-4405', // Added phone number
+    email: 'dacosta13@csustan.edu', // Changed
   },
   resume: {
     fileUrl:
       'https://github.com/tvanlaar/gitprofile/raw/main/VanLaarCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
+  skills: [ // TODO
     'PHP',
     'Laravel',
     'JavaScript',
@@ -122,7 +122,7 @@ const CONFIG = {
       link: 'https://example.com',
     },
   ],
-  education: [
+  education: [ // TODO
     {
       institution: 'Institution Name',
       degree: 'Degree',
