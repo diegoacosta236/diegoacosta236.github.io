@@ -126,7 +126,7 @@ const CONFIG = {
       link: 'https://example.com',
     },
   ],
-  education: [ // TODO
+  educations: [ // TODO
     {
       institution: 'California State University, Stanislaus',
       degree: 'Bachelor of Science, Computer Science, Minor in Biology',
