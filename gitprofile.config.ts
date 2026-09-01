@@ -10,7 +10,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  projects: {
+  projects: { // ** TODO **
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
@@ -62,7 +62,7 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: 'preciouss.momentss', // Added instagram
+    instagram: '', // No instagram
     reddit: '',
     threads: '',
     youtube: '', 
@@ -75,12 +75,12 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: 'https://diegoacosta236.github.io',  // Changed
-    phone: '(925)339-4405', // Added phone number
-    email: 'dacosta13@csustan.edu', // Changed
+    //phone: '(925)339-4405', // Added phone number
+    email: 'diegoacosta006@gmail.com', // Changed
   },
   resume: {
     fileUrl:
-      'https://github.com/tvanlaar/gitprofile/raw/main/VanLaarCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/tvanlaar/gitprofile/raw/main/VanLaarCV.pdf', // Empty fileUrl will hide the `Download Resume` button. TODO CHANGE TO DIEGO
   },
   skills: [ // TODO
     //'PHP',
@@ -89,6 +89,7 @@ const CONFIG = {
     //'Docker',
     //'PHPUnit',
     //'Antd',
+    'Touch Designer', // Added
     'R', // Added
     'Python', // Added
     'C++', // Added
@@ -102,30 +103,37 @@ const CONFIG = {
     'CSS',
     'Tailwind',
   ],
-  experiences: [
+  experiences: [ // Change
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Digital NEST',
+      position: 'Software Developer',
+      from: 'June 2026',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://digitalnest.org/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'CSU - Stanislaus',
+      position: 'Research Intern',
+      from: 'February 2025',
+      to: 'May 2026',
+      companyLink: 'https://www.csustan.edu/',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Bay Valley Tech',
+      position: 'Software Developer',
+      from: 'February 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.bayvalleytech.com/',
     },
   ],
+  // certifications: [ ** TO DO IN FUTURE WHEN I ACTUALLY HAVE SOME **
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [ // TODO
     {
       institution: 'California State University, Stanislaus',
@@ -140,26 +148,26 @@ const CONFIG = {
       to: '2023',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [ ** TO DO IN THE FUTURE IF PAPER GOES THRU **
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
